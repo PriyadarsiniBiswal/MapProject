@@ -127,7 +127,8 @@ const PolygonModal = () => {
   };
 
   return (
-    <div  style={{padding: '1.5rem', background: '#000', color: '#fff', marginTop: '5rem'}}> 
+    <div  style={{padding: '1.5rem', background: '#000', color: '#fff', marginTop: '5rem'}}>
+     
       <Button onClick={() => startDrawing('Polygon')} variant="primary" className='my-3'>Draw Polygon</Button> <span>Start drawing Polygon here</span>
       <div ref={mapRef} style={{ width: '100%', height: '500px' }}></div>
 
